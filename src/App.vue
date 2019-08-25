@@ -1,16 +1,23 @@
 <template>
   <div id="app">
     <Welcome />
+    <Projects />
+    <Footer />
   </div>
 </template>
 
 <script>
 import Welcome from './components/Welcome.vue'
+import Projects from './components/Projects.vue'
+import Footer from './components/Footer.vue'
+
 
 export default {
   name: 'app',
   components: {
-    Welcome
+    Welcome,
+    Projects,
+    Footer
   }
 }
 </script>

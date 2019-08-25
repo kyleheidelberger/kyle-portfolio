@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h1>My Portfolio</h1>
+    <h1>My Projects</h1>
     <h2>Slideshow</h2>
     <agile :autoplay-speed="3000" :speed="2500" fade="fade" pause-on-hover="pause-on-hover" pause-on-dots-hover="pause-on-dots-hover" autoplay="autoplay">
         <div class="slide" v-for="n in 6" :key="n" :class="`slide--${n}`">
